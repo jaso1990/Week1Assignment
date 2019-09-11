@@ -14,6 +14,7 @@ public class PizzaCost {
         cost += .50 * inch; //base ingredients
         cost += 0.75 * top; // toppings
         System.out.format("Your total cost is: $%.2f\n", cost); //8.25
+        System.out.println("Thank you for your order");
         
         
     }
